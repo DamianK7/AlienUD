@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlienUD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+857dc3f092644925d8c9c73e2534500fae5675ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlienUD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlienUD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

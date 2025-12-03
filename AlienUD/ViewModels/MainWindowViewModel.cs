@@ -1,6 +1,14 @@
-﻿namespace AlienUD.ViewModels;
+﻿using System.Collections.ObjectModel;
+using AlienUD.Models;
+
+namespace AlienUD.ViewModels;
 
 public class MainWindowViewModel : ViewModelBase
 {
-    public string Greeting { get; } = "Welcome to Avalonia!";
+    public ObservableCollection<Film> Filmy { get; } = new()
+    {
+        new Film { Tytul = "Alien" },
+        new Film { Tytul = "Top Gun" },
+        new Film { Tytul = "Man in Black" },
+    };
 }
